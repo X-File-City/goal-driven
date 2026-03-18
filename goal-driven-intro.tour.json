@@ -33,7 +33,7 @@
     {
       "id": "pseudocode-loop",
       "title": "The Goal-Driven Loop",
-      "description": "The entire philosophy reduces to a simple loop: while (criteria not met) { let the subagent work }. The master agent checks subagent activity every 5 minutes, evaluates results against criteria, and restarts subagents as needed. The process never stops until criteria are satisfied or the user manually intervenes.",
+      "description": "The entire philosophy reduces to a simple loop: while criteria are not met, let the subagent work. The master agent checks subagent activity every 5 minutes, evaluates results against criteria, and restarts subagents as needed. The process never stops until criteria are satisfied or the user manually intervenes.",
       "focusDirectory": "",
       "colorMode": "fileTypes",
       "highlightLayers": [
