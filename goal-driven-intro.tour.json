@@ -1,0 +1,60 @@
+{
+  "id": "goal-driven-intro",
+  "title": "Goal-Driven Multi-Agent System",
+  "description": "An introduction to the Goal-Driven approach for sustaining 300+ hours of continuous multi-agent effort on complex problems.",
+  "version": "1.0.0",
+  "steps": [
+    {
+      "id": "overview",
+      "title": "Welcome to Goal-Driven",
+      "description": "Goal-Driven is a methodology for multi-agent systems (Claude Code, Codex, OpenClaw) to solve extremely complex problems with specific objectives and strict criteria. It's ideal for compiler design, theorem proving, database architecture, and sophisticated system-level challenges.",
+      "focusDirectory": "",
+      "colorMode": "fileTypes"
+    },
+    {
+      "id": "core-concepts",
+      "title": "Core Concepts",
+      "description": "The system is built on four pillars: (1) Goal — the ultimate objective, (2) Criteria — conditions for success, (3) Subagent — the persistent worker, and (4) Master Agent — the controller and evaluator. The master agent loops: create subagent → check activity → evaluate criteria → restart if needed → stop when done.",
+      "focusDirectory": "",
+      "colorMode": "fileTypes",
+      "highlightLayers": [
+        {
+          "id": "documentation",
+          "name": "Documentation",
+          "color": "#3b82f6",
+          "items": [
+            { "path": "README.md", "type": "file" }
+          ],
+          "opacity": 0.8,
+          "renderStrategy": "border"
+        }
+      ]
+    },
+    {
+      "id": "pseudocode-loop",
+      "title": "The Goal-Driven Loop",
+      "description": "The entire philosophy reduces to a simple loop: while (criteria not met) { let the subagent work }. The master agent checks subagent activity every 5 minutes, evaluates results against criteria, and restarts subagents as needed. The process never stops until criteria are satisfied or the user manually intervenes.",
+      "focusDirectory": "",
+      "colorMode": "fileTypes",
+      "highlightLayers": [
+        {
+          "id": "prompt-template",
+          "name": "Prompt Template",
+          "color": "#10b981",
+          "items": [
+            { "path": "README.md", "type": "file" }
+          ],
+          "opacity": 0.8,
+          "renderStrategy": "border"
+        }
+      ]
+    },
+    {
+      "id": "real-world-results",
+      "title": "Proven Results",
+      "description": "Goal-Driven has produced real open-source projects: a TypeScript compiler written in C++ (~100 hours of agent work) and SQLite reimplemented in Rust (~30 hours). These demonstrate the approach's power for tackling projects that would otherwise require massive human effort.",
+      "focusDirectory": "",
+      "colorMode": "git"
+    }
+  ]
+}
